@@ -90,11 +90,11 @@ table{
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
-thead tr:first-child(odd) th:first-child(odd){
+thead tr:nth-child(odd) th:nth-child(odd){
   background-color: transparent;
 }
 
-thead tr:second-child(even) th:second-child(even){
+thead tr:nth-child(even) th:nth-child(even){
   background-color: #D1D1D1;
 }
 
@@ -104,10 +104,9 @@ thead tr:second-child(even) th:second-child(even){
 
 footer{
   width:100%;
-  background:#000000;
+  background-color:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  overflow: hidden;
   position: fixed;
 }
