@@ -77,13 +77,13 @@ td{
   background-color: #7e0825;
   text-align: center;
   text-transform: uppercase;
+  border-collapse: collapse;
+  border-style: hidden;
 
 }
 
 .rowhead{
   border: 2px solid #000000;
-  border-collapse: collapse;
-  border-style: hidden;
 }
 
 
@@ -95,9 +95,7 @@ table{
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
-thead tr:first-child(odd) th:first-child(odd){
-  background-color: transparent;
-}
+
 
 thead tr:first-child(even) th:first-child(even){
   background-color: #D1D1D1;
