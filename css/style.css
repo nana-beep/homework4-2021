@@ -103,12 +103,10 @@ You can use Inspect Element or your editor to find selectors. */
 
 
 thead tr:first-child th:first-child{
-  background-color: #D1D1D1;
+  
 }
 
 /*Add selectors and rules here*/
-
-
 
 footer{
   width:100%;
