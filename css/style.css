@@ -53,7 +53,7 @@ a{
 
 /*Req 5*/
 /*Add selector and rule here*/
-:focus*{
+*:focus{
   border-style: dotted;
   border-color: 3px #417243;
 }
