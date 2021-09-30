@@ -79,13 +79,6 @@ td{
 }
 
 .colhead::before,
-.colhead::after {
-  content: "";
-  position: absolute;
-  border: solid white;
-  width: 50px;
-  height: 50px;
-}
 
 thead tr{
   border-top-left-radius:50px;
