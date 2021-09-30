@@ -27,18 +27,18 @@ body{
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
-  background-size: cover ;
+  background-size: cover;
   background-position: center;
   font-family: 'Andika', sans-serif;
-  background-image: url('pigeon-background.JPEG');
-  background-color: #DDDDDD;
+  background-image: url('../images/pigeon-background.JPEG') #DDDDDD;
+  background-repeat: no-repeat;
 }
 
 h1{
   color: #c12258;
-  font-size: 2em;
-  size: 32px;
+  font-size: 32px;
   line-height: 2;
+  text-align: center;
 }
 
 p{
@@ -49,26 +49,22 @@ a{
   font-size:16px;
   color:#C12258;
   text-decoration-style: wavy;
-
 }
 
 /*Req 5*/
 /*Add selector and rule here*/
-*{
+:focus*{
   border-style: dotted;
-  border-color: #417243;
-  box-sizing: border-box;
+  border-color: 3px #417243;
 }
 
 
 td{
-  border-top:5px #000000;
+  border-top:2px #000000;
   text-align: center;
   padding: 10px;
-  border-left: 50px solid #000000;
   
 }
-
 
 .colhead{
   color: #FFFFFF;
@@ -77,45 +73,62 @@ td{
   background-color: #7e0825;
   text-align: center;
   text-transform: uppercase;
-  border-top: none;
-}
-
-
-thead tr{
-  border-top-left-radius:50px;
-  border-top-right-radius:50px;
 }
 
 .rowhead{
-  border: 2px solid #000000;
-  
+  text-align: center;
+  border-bottom: 2px solid #000000;
+  border-right: 2px solid #000000;
 }
 
-.rowhead:hover{
-  background-color:(126,8,37,0.25);
+table tbody tr td{
+  text-align: center;
+  border-bottom: 2px solid #000000;
+}
+
+table tbody tr:hover{
+  background-color: rgba(126,8,37,0.25);
 }
 
 table{
     border: 5px solid #000000;
     border-radius: 50px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
 
-
 thead tr:first-child th:first-child{
+  border-top-left-radius:50px;
+}
 
+thead tr:last-child th:last-child{
+  border-top-right-radius:50px;
+}
+
+tbody tr:last-child th:first-child{
+  border-bottom-left-radius:50px;
+}
+
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius:50px;
+}
+
+tbody tr:nth-child(odd){
+  background-color:transparent;
+}
+tbody tr:nth-child(even){
+  background-color:#D1D1D1;
 }
 
 /*Add selectors and rules here*/
-
 footer{
   width:100%;
   background-color:#000000;
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: fixed;
+  position: static;
 }
