@@ -134,7 +134,7 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: static;
+  position: fixed;
   bottom: 0;
   left: 0;
 }
