@@ -30,7 +30,7 @@ body{
   background-size: cover;
   background-position: center;
   font-family: 'Andika', sans-serif;
-  background-image: url("./../images/pigeon-background.JPEG") #DDDDDD;
+  background-image: url("../../images/pigeon-background.JPEG") #DDDDDD;
   background-repeat: no-repeat;
 }
 
