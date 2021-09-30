@@ -84,6 +84,8 @@ td{
 
 .rowhead{
   border: 2px solid #000000;
+  border-collapse: collapse;
+  border-style: hidden;
 }
 
 
